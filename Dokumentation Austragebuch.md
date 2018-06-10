@@ -1,8 +1,8 @@
 # Dokumentation Austragebuch
 
-Das digitale Austragebuch ist ein Vorschlag als Alternative zum aktuellen Austragebuch in Papierform. Es soll es den Schülern erleichtern, sich vom Schul- und Internatsgelände auszutragen, indem wir eine Webseite erstellt haben, die über eine Anbindung an eine Datenbank Einträge der Schüler speichert und verwaltet und sie den SozPäds anzeigt. Darüber hinaus verfügt das digitale Austragebuch über ein System zur Verwaltung von Besuchsankündigungen und dem Postdienst.
+Das digitale Austragebuch ist ein Vorschlag als Alternative zum aktuellen Austragebuch in Papierform an der Internatsschule Schloss Hansenberg. Es soll es den Schülern erleichtern sich vom Schul- und Internatsgelände auszutragen und den Sozialpädagogen die Anwesenheit der Schüler zu kontrollieren. Dies haben wir umgesetzt, indem wir eine Webseite erstellt haben, die über eine Anbindung an eine Datenbank Einträge der Schüler speichert, verwaltet und anzeigt. Darüber hinaus verfügt das System zur Verwaltung von Besuchsankündigungen und dem Postdienst.
 
-Zusätzlich zu dem Webservice sind die Funktionen zum Austragebuch und Postdienst ebenfalls über einen Telegram-Bot verfügbar.
+Die Funktionen zum Austragebuch und Postdienst sind sowohl über den Webservice als auch über einen Telegram-Bot verfügbar.
 
 ### Table of contents
 
@@ -18,13 +18,13 @@ Zusätzlich zu dem Webservice sind die Funktionen zum Austragebuch und Postdien
 
 ## Die Idee
 
-Die Idee des Projektes war es, das Austragebuch, welches am Internat benutzt wird, um festzuhalten, wer das Gelände verlässt, wohin er geht und wann er wiederkommt, zu digitalisieren. Es sollten also alle Schüler einen Account haben, mit dem sie sich online einloggen können um sich auszutragen. Die Sozialpädagogen sollten zudem Zugriff auf die Daten erhalten, um beispielsweise in einem Brandfall die Anwesenheit korrekt feststellen zu können.
+Die Idee des Projektes war es, das Austragebuch, welches am Internat benutzt wird, um festzuhalten, wer das Gelände verlässt, wohin er geht und wann er wiederkommt, zu digitalisieren. Es sollten also alle Schüler einen Account haben, mit dem sie sich online einloggen können um sich auszutragen. Die Sozialpädagogen sollten zudem einfachen und effektiven  Zugriff auf die Daten erhalten, um beispielsweise in einem Brandfall die Anwesenheit korrekt feststellen zu können.
 
-Später kam zu dieser Grundidee unsere Unzufriedenheit mit der Zettelwirtschaft, die im Internat für die meisten Prozesse betrieben wird. So gibt es unterschiedliche Formulare für die Anmeldung von Besuch oder um Mängel und Defekte zu melden. Diese können nun ebenfalls über die Datenbank ausgefüllt und verarbeitet werden.
+Später kam zu dieser Grundidee unsere Unzufriedenheit mit der "Zettelwirtschaft", die im Internat für die meisten Prozesse betrieben wird. So gibt es unterschiedliche Formulare für die Anmeldung von Besuch oder um Mängel und Defekte zu melden. Diese können nun ebenfalls über die Datenbank ausgefüllt und verarbeitet werden.
 
 Die nächste Idee resultierte aus der leichten Ineffizienz, die die momentane Regelung des Postdienstes mit sich bringt. Im Moment wird in der Theorie einmal am Tag in die WhatsApp-Gruppe der gesamten Schülerschaft geschrieben, für wen Pakete gekommen sind und wo sich diese im Moment befinden. Demnach haben wir auch den Postdienst im Austragebuch zusätzlich implementiert.
 
-Da jedoch auch das Aufrufen einer solchen Webseite recht zeitintensiv ist und auch Zeitdruck in unserer Überlegung das Austragebuch zu digitalisieren eine große Rolle gespielt hat, haben wir uns hierfür eine Alternative überlegt. Zur Erleichterung dieser Prozesse haben wir also einen Telegram-Bot programiert, da Telegram aufgrund des hohen Stellenwerts von Datenverschlüsselung am Hansenberg recht beliebt ist und es eine gut dokumentierte API, um Bots zu entwickeln, gibt, welche uns den Weg geebnet hat.
+Da jedoch auch das Aufrufen einer solchen Webseite recht zeitintensiv ist und auch Zeitdruck in unserer Überlegung das Austragebuch zu digitalisieren eine große Rolle gespielt hat, haben wir uns hierfür eine Alternative überlegt. Zur Erleichterung dieser Prozesse haben wir also einen Telegram-Bot programiert. Wir haben uns für Telegram entschieden, da Telegram aufgrund des hohen Stellenwerts von Datenverschlüsselung am Hansenberg beliebt ist und es eine gut dokumentierte API(Schnittstelle) gibt um eigene Bots zu entwickeln.
 
 ## Umsetzung
 
@@ -189,3 +189,7 @@ Eine weitere Neuheit war die Form der Zusammenarbeit insbesondere in Zusammenhan
 Generell war es auch interessant, den Aufbau unterschiedlicher Seiten zu betrachten, da man hier durch Anpassung bereits verhandener Seiten eine Menge Arbeit sparen kann. So ist das Endprodukt auch übersichtlicher; Abänderungen, die für mehrere Seiten gewünscht sind, sowie Fehlerbehebung werden vereinfacht.
 
 Allgemein lässt sich auch sagen, dass bei einem so großen Projekt Effizienz sehr wichtig ist, da es sonst sehr schnell nicht mehr überschaubar ist und man deshalb an vielen Stellen unterschiedliche Dinge ausprobiert, damit alles möglichst reibungslos abläuft.
+
+
+
+Was ist mit der Implementierung an der Schule? Datenschutz? Welche Hindernisse stehen noch im Weg. Welche weiteren Erweiterungen sind denkbar? Welche Schritte müssen unternommen werden?
